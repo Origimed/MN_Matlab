@@ -1,4 +1,4 @@
-    function  [C, X, Y] = cheby (fun, n, a, b)
+function  [C, X, Y] = cheby (fun, n, a, b)
 
 % Entrada   - fun es la funcion introducida con @
 %           - N es el grado del polinomial interpolante de Chebyshev
